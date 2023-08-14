@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.Fruit-app-container {
+  background-color: #ffd569;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.fruit-container {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.Heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+.count-color {
+  color: #c20a72;
+}
+.image {
+  width: 200px;
+}
+.sub-fruit-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.banana-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-button {
+  margin-top: 20px;
+}
+.center-button {
+  background-color: #007bff;
+  border-width: 0px;
+  border-radius: 4px;
+  width: 100px;
+  height: 28px;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
